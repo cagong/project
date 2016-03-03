@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'walkway_condensedregular';
+    src: url('fonts/walkway_condensed-webfont.eot');
+    src: url('fonts/walkway_condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/walkway_condensed-webfont.woff2') format('woff2'),
+         url('fonts/walkway_condensed-webfont.woff') format('woff'),
+         url('fonts/walkway_condensed-webfont.ttf') format('truetype'),
+         url('fonts/walkway_condensed-webfont.svg#walkway_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'walkway_obliqueregular';
+    src: url('fonts/walkway_oblique-webfont.eot');
+    src: url('fonts/walkway_oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/walkway_oblique-webfont.woff2') format('woff2'),
+         url('fonts/walkway_oblique-webfont.woff') format('woff'),
+         url('fonts/walkway_oblique-webfont.ttf') format('truetype'),
+         url('fonts/walkway_oblique-webfont.svg#walkway_obliqueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'walkway_semiboldregular';
+    src: url('fonts/walkway_semibold-webfont.eot');
+    src: url('fonts/walkway_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/walkway_semibold-webfont.woff2') format('woff2'),
+         url('fonts/walkway_semibold-webfont.woff') format('woff'),
+         url('fonts/walkway_semibold-webfont.ttf') format('truetype'),
+         url('fonts/walkway_semibold-webfont.svg#walkway_semiboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+main {
+    position: relative;
+    width: 507px;
+    height: 905px;
+    margin: auto;
+    background-color: #243576;
+    margin-top: 50px;
+    background-image: url('images/startbackground.png');
+}
+
+/* start page*/
+header#start {
+    text-align: center;
+    padding-top: 225px;
+}
+
+nav#begin {
+    text-align: center;
+    padding-top: 290px;
+}
+
+footer#login {
+    margin-top: 65px;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: #fff;
+    font-size: 20px;
+    font-family: 'walkway_obliqueregular';
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+footer#login span {
+    font-family: 'walkway_semiboldregular';
+}
+
+footer#login a:link {
+    color: #fff;
+}
+
+footer#login a:visited {
+    color: #fff;
+}
+
+/* search for event page */
+div#search {
+    position: absolute;
+    top: 0px;
+    width: 507px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+header.banner{
+    text-align: center;
+    padding: 5px;
+    border-bottom: solid 2px #fff;
+}
+
+div.mainback{
+    background-color: rgba(255,255,255,0.25);
+    padding-top: 275px;
+}
+
+nav#searchnav ul{
+    padding-bottom: 255px;
+}
+
+nav#searchnav ul li{
+    list-style: none;
+    text-align: center;
+    width: 360px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    border: solid 2px #fff;
+    font-family: 'walkway_semiboldregular';
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 70px;
+    margin-left: 75px;
+}
+
+nav#searchnav ul li a:link{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav#searchnav ul li a:visited{
+    color: #fff;
+}
+
+footer#mainnav ul{
+    background-color: rgba(255, 255, 255, 0.50);
+    list-style: none;
+    text-align: center;
+}
+
+footer#mainnav ul li{
+    display: inline;
+    padding-left: 45px;
+    padding-right: 45px;
+}
