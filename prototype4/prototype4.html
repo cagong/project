@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Interactive Prototype 4.0</title>
+    <!-- css link -->
+    <link type="text/css" href="prototype4.css" rel="stylesheet">
+    <!-- js links -->
+    <!-- jquery first -->
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="prototype4.js"></script>
+</head>
+
+<body>
+    <main>
+        <header id="start"><img src="images/banner.png" alt="myEvents banner" width="433px" height="191px"></header>
+
+        <nav id="begin">
+            <img src="images/begin.png" alt="begin button" width="97px" height="97px">
+        </nav>
+
+        <footer id="login">
+            Are you an organization?
+            <span><a href="#">log in</a> | <a href="#">create account</a></span>
+        </footer>
+
+        <footer id="mainnav">
+            <ul>
+                <li id="searchicon">
+                    <a href="#"><img src="images/searchicon.png" alt="search icon" width="45px" height="45px"></a>
+                </li>
+                <li id="calendaricon">
+                    <a href="#"><img src="images/calendaricon.png" alt="calendar icon" width="45px" height="45px"></a>
+                </li>
+                <li id="addicon">
+                    <a href="#"><img src="images/addicon.png" alt="add icon" width="45px" height="45px"></a>
+                </li>
+            </ul>
+        </footer>
+
+        <!--search for event-->
+        <div id="search">
+            <header class="banner"><img src="images/searchbanner.png" alt="search banner" width="282px" height="55px"></header>
+            <div class="mainback">
+                <nav id="searchnav">
+                    <ul>
+                        <li id="sorg"><a href="#">Search by Organization</a></li>
+                        <li id="sevent"><a href="#">Search by Event</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!--list organization-->
+        <div id="organization">
+            <header class="banner"><img src="images/orgbanner.png" alt="organization banner" width="375px" height="65px"></header>
+            <div class="mainback">
+                <h1 class="check">CHECK AREAS OF INTEREST</h1>
+                <input type="text" name="search" placeholder="search..." class="search">
+
+                <form name="orgcheck" id="orgcheck">
+                    <div id="list">
+                        <h2 class="categories"><img src='images/plus.png' alt='plus' width="21px" height="19px"> Category</h2>
+                        <ul class="catlist">
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                        </ul>
+                        <h2 class="categories"><img src='images/plus.png' alt='plus' width="21px" height="19px"> Category</h2>
+                        <ul class="catlist">
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                        </ul>
+                        <h2 class="categories"><img src='images/plus.png' alt='plus' width="21px" height="19px"> Category</h2>
+                        <ul class="catlist">
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                            <li>
+                                <h3><input type="checkbox" name="org" value="org"><img src='images/arrow.png' alt='arrow' width="17px" height="18px">Organization</h3>
+                                <span class="infoonorg">a little description of the organization</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="submitnav">
+                        <input type="submit" value="submit" />
+                        <input type="reset" value="cancel" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- list events -->
+        <div id="events">
+            <header class="banner"><img src="images/eventbanner.png" alt="search banner" width="239px" height="65px"></header>
+            <div class="mainback">
+                <h1 class="check">CHECK AREAS OF INTEREST</h1>
+                <input type="text" name="search" placeholder="search..." class="search">
+                <nav class="calendarnav">
+                    <ul>
+                        <li class="left">
+                            <</li>
+                                <li class="right">></li>
+                    </ul>
+                </nav>
+                <h3 class="month">February</h3>
+                <h4 class="year">2016</h4>
+            </div>
+            <form name="eventcheck" id="eventcheck">
+                <table class="calendar">
+                    <tr>
+                        <th>sun</th>
+                        <th>mon</th>
+                        <th>tue</th>
+                        <th>wed</th>
+                        <th>thu</th>
+                        <th>fri</th>
+                        <th>sat</th>
+                    </tr>
+                    <tr>
+                        <td class="no"></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td>29</td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                        <td class="no"></td>
+                    </tr>
+                </table>
+                <div class="submitnav">
+                    <input type="submit" value="submit" />
+                    <input type="reset" value="cancel" />
+                </div>
+            </form>
+        </div>
+
+        <!-- calendar -->
+        <div id="calendar">
+            <header class="banner"><img src="images/calendarbanner.png" alt="calendar banner" width="178px" height="58px"></header>
+            <div class="mainback">
+                <nav class="calendarnav">
+                    <ul>
+                        <li class="left">
+                            <</li>
+                                <li class="right">></li>
+                    </ul>
+                </nav>
+                <h3 class="month">February</h3>
+                <h4 class="year">2016</h4>
+            </div>
+
+            <table class="calendar">
+                <tr>
+                    <th>sun</th>
+                    <th>mon</th>
+                    <th>tue</th>
+                    <th>wed</th>
+                    <th>thu</th>
+                    <th>fri</th>
+                    <th>sat</th>
+                </tr>
+                <tr>
+                    <td class="no"></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>29</td>
+                    <td class="no"></td>
+                    <td class="no"></td>
+                    <td class="no"></td>
+                    <td class="no"></td>
+                    <td class="no"></td>
+                </tr>
+            </table>
+        </div>
+
+        <!--add an event-->
+        <div id="add">
+            <header class="banner"><img src="images/addbanner.png" alt="search banner" width="245px" height="58px"></header>
+            <div class="mainback">
+                <form name="addevent" id="addevent">
+                    <ul>
+                        <li>
+                            <label>organization name</label>
+                            <br>
+                            <input type="text" name="orgname">
+                        </li>
+
+                        <li>
+                            <label>event name</label>
+                            <br>
+                            <input type="text" name="ename">
+                        </li>
+
+                        <li>
+                            <label>date</label>
+                            <br>
+                            <input type="text" name="date">
+                        </li>
+
+                        <li>
+                            <label>time</label>
+                            <br>
+                            <input type="text" name="starttime">
+                            <label>to</label>
+                            <input type="text" name="endtime">
+                        </li>
+
+                        <li>
+                            <label>location</label>
+                            <br>
+                            <input type="text" name="location">
+                        </li>
+                        
+                        <li>
+                            <label>description</label>
+                            <br>
+                            <textarea name="description" rows="5"></textarea>
+                        </li>
+                        
+                        <li>
+                            <input type="checkbox" name="rsvp" value="rsvp">
+                            <label>RSVP: </label>
+                            <label>amount of seats</label>
+                            <input type="text" name="numberseats">
+                        </li>
+                    </ul>
+                    
+                    <div class="submitnav">
+                        <input type="submit" value="submit" />
+                        <input type="reset" value="cancel" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <!--event added-->
+        <div id="added">
+            <div class="mainback">
+                <header class="addedcheck"><img src="images/check.png" alt="check" width="145px" height="145px"></header>
+                <header class="addedbanner"><img src="images/added.png" alt="added banner" width="268px" height="142px"></header>
+                <nav id="addednav">
+                    <ul>
+                        <li id="view"><a href="#">View in Calendar</a></li>
+                        <li id="add2"><a href="#">Add Another Event</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
